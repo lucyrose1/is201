@@ -1,0 +1,18 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.site-heading-lower{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mb-3{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: yellow !important;
+}
+.notyellow{
+    color: black !important;
+}
+.intro-text{
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* change the spicific class by the words you want to change; the closest class is the one closest to the content, make it a new style by adding dot, dont forget to link your new styles sheet */
