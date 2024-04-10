@@ -1,0 +1,35 @@
+     /*positioning styles*/
+     .common{
+        position: absolute;
+    
+    
+    }
+    .bottom{
+        position: fixed; /*no matter how much your scroll it will stayed fixed*/
+        bottom: 0px;
+        left: 0px;
+        right: 0px; /*fixes it to the edge of each side*/
+        text-align: center;
+        font-style: italic;
+        font-size: small;
+        background-color: rgb(245, 220, 233);
+    }
+    .top{
+       top: 0px;
+       left: 0px;
+       right: 0px; 
+       text-align: center;
+    }
+    .content{
+        top: 100px;
+        left: 0px;
+        right: 0px; 
+        height: 100%;
+    }
+    .nav{
+        position: relative;
+        float: right;
+
+        /*z index control the depth of the layers*/
+        
+    }
